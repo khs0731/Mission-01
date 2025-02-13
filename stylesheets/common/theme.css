@@ -1,1 +1,20 @@
 /* Theme 스타일 작성 */
+/*/stylesheets/common/theme.css 파일에 피그마 시안에 등록된 color 시스템을 참고하여 변수로 선언
+(예 --color-blue-600 : #0074E9 ; )하여 사용해주세요.*/
+
+.sub-title {
+  color: #aaa9a9;
+}
+#today_discovery {
+  color: #181818;
+}
+
+.btn_purchase {
+  color: #f3f3f3;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.btn_purchase:hover {
+  color: #ffffff;
+  background-color: #0074e9;
+}
